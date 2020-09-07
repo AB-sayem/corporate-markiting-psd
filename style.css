@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* basic setup end*/
+
+
+/* header area start */
+
+.manu ul li a {
+    color: #404040 !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.manu ul li {
+    margin-right: 20px;
+}
+
+.manu ul li a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: #404040;
+    transition: 0.3s;
+}
+
+.manu ul li a:hover::after {
+    width: 100%;
+}
+
+.btn-custom {
+    background-color: #7f1a38;
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: transparent;
+    border: 2px solid #7f1a38 !important;
+    color: #7f1a38 !important;
+}
+
+
+/* header area end */
+
+
+/* banner part start */
+
+.banner-part {
+    padding: 100px 0px;
+    background-image: url(img/banner/banner\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-contant h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner-contant p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.design {
+    color: #7f1a38;
+}
+
+
+/* banner part end */
+
+
+/* banner second part start */
+
+form {
+    padding: 20px;
+    background-color: #7f1a38;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+
+.form-custom {
+    border-radius: 0;
+    margin-left: 8px;
+}
+
+.btn-custom1 {
+    background-color: #ae2c52;
+    border-radius: 0;
+    padding: 6px 63px;
+    color: #ffffff;
+    margin-left: 9px;
+}
+
+.btn-custom1:hover {
+    color: #ffffff;
+}
+
+.form-control {
+    display: block;
+    width: 95%;
+    padding: .375rem .75rem;
+    color: #495057;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.form-design p {
+    color: #ffffff;
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+
+/* banner second part end */
+
+
+/*service area start*/
+
+.service-area {
+    padding: 80px 0px;
+}
+
+.service-contant h2 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.service-contant p {
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+
+/*service area end*/
+
+
+/*world-best-Service start*/
+
+.world-best-Service {
+    padding: 80px 0px;
+    background-color: #f2f1f1;
+}
+
+.world-best-Service h1 {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.world-best-Service p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 83px;
+    margin-bottom: 35px;
+}
+
+.btn-custom2 {
+    border: 2px solid #7f1a38;
+    border-radius: 15px;
+    color: #7f1a38;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.btn-custom2:hover {
+    color: #7f1a38;
+}
+
+
+/*world-best-Service end*/
+
+
+/*discover area start */
+
+.discover-area {
+    padding: 30px 0px;
+    background-color: #32383d;
+}
+
+.left-contant h2 {
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.btn-custom3 {
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.btn-custom3:hover {
+    color: #ffffff;
+}
+
+
+/*discover area end*/
+
+
+/*testmoneal part start*/
+
+#testmoneal-area {
+    padding: 50px 0px;
+    background-color: #09bbdb;
+}
+
+.testmoneal-text p {
+    text-align: center;
+    padding: 0px 76px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.dgn {
+    color: #117486;
+}
+
+.social-icon ul {
+    text-align: center;
+}
+
+.social-icon ul li a {
+    color: #117486;
+    font-size: 35px;
+    padding: 0px 10px;
+}
+
+
+/*testmoneal part end*/
+
+
+/*footer part start*/
+
+.footer-part {
+    padding: 30px 0px;
+}
+
+.footer-part h4 {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/*footer part end*/
